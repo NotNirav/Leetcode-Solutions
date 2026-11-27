@@ -21,7 +21,6 @@ public:
             ListNode* curr = temp;
             temp = temp->next;
             prev->next = temp;
-            delete curr;
             
          }
          else{
