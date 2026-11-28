@@ -8,8 +8,8 @@ public:
                 i++;
             }
             else{
-                nums1.insert(nums1.begin() + i , nums2[j]);
                 nums1.pop_back();
+                nums1.insert(nums1.begin() + i , nums2[j]);
                 i++;
                 j++;
                 m++;
